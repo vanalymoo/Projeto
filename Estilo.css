@@ -1,0 +1,159 @@
+/*LP=página estática*/
+
+/*Vou fazer uma faixa para subscrever o site. 
+Terá duas caixas de texto para introdução de dados */
+
+body .subscrever{
+    background-image: url("Imagens/Home.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    margin-top:50px;
+    text-align: center;
+}
+
+/*Trabalhar as caixas de texto*/
+
+.subscrever .caixas{
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 2px solid;
+    margin-left: 35%;
+}
+
+/*Trabalhar no botão*/
+
+.subscrever .botao{
+    background-color: gray;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.subscrever .botao:hover{
+    background-color: blanchedalmond;
+}
+
+/*dar espaço do lado esquerdo do conteudo para encaixar melhor na faixa*/
+.subscrever .espaco{
+    margin-left: 60px;
+}
+
+/*Titulo antes das caixas*/
+
+.subscrever .parag {
+    font-size: 40px;
+    color: white;
+}
+
+.subscrever p{
+    color: white;
+    margin: 10px;
+}
+
+/*Meter logo no cabeçalho*/
+
+.arranjar .cabecalho .logo{
+    width: 250px;
+    height: 250px;
+    margin-left: 248px;
+    margin-top: -24px;
+}
+
+.arranjar{
+    display: flex;
+}
+
+.arranjar .titulo{
+    margin-left: -79px;
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: rgb(13, 199, 231);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+
+/*h2*/
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -80px;
+    font-family: 'Jost', sans-serif;
+    line-height: 35px;
+}
+
+/*Meter secoes de fotos lado a lado*/
+
+
+.secoes{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+
+.secoes .local{
+    text-align: center;
+    margin-top: 15px;
+    background-position: center;
+}
+
+.secoes .local img{
+    position: relative;
+    height: 350px;
+    width: 210px;
+    margin: 15px;
+}
+
+.secoes .local img:hover{
+    opacity: 0.6;
+}
+
+.secoes .local p{
+    position: absolute;
+    bottom:0px;
+    margin-left: 30px;
+    font-size: 30px;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+
+.secoes .local:hover{
+    scale: 1.1;
+}
+
+
+/*2Página*/
+
+body .corpo {
+    text-align: center;
+    color:white;
+    background-image: url("Imagens/Fundo2Projeto.png");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin-top: 0px;
+}
+
+body .corpo p{
+    font-size: 25px;
+}
+
+body .corpo .tipo{
+    font-size: 45px;
+    margin: 20px;
+}
